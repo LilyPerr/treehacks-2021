@@ -52,34 +52,34 @@ const quotes = {
             {
                 title: "Sponsor a Future US Citizenship",
                 description: "Donate to Citizenshipworks to help make applying for United States citizenship safer, simpler, and more affordable, and to bring the power of citizenship to more people.",
-                image_url: ""
+                image_url: "/img/entry-citizenship.png"
             },
             {
                 title: "Adopt a Puppy or Kitten",
                 description: "Provide a forever home for an adorable new friend from the Humane Society or donate to support the organization’s efforts.",
-                image_url: ""
+                image_url: "/img/adopt.png"
             },
             {
                 title: "Support Mental Health Initiatives",
                 description: "Donate to Mental Health America to help fund mental health therapy programs for children and adults in the United States.",
-                image_url: ""
+                image_url: "/img/mental.png"
             }
         ],
         silly: [
             {
                 title: "Invest in Gamestop Stock",
                 description: "With a peak price of $350, you’re sure to net a great return on your investment!",
-                image_url: ""
+                image_url: "/img/entry-gme.png"
             },
             {
                 title: "500 Cup Noodles",
                 description: "Try all of their 100+ delicious flavors at least 5 times each!",
-                image_url: ""
+                image_url: "/img/entry-ramen.png"
             },
             {
                 title: "Upgrade Your Wifi",
                 description: "Make sure that your Netflix and Disney Plus accounts never decrease their streaming quality by ensuring that you have the best wifi possible.",
-                image_url: ""
+                image_url: "/img/streaming.png"
             }
         ],
     },
@@ -88,29 +88,29 @@ const quotes = {
             {
                 title: "End COVID-19",
                 description: "Donate money to the National Foundation for Infectious Diseases to support vaccine research for deadly diseases, such as Covid-19, Polio, and more.",
-                image_url: ""
+                image_url: "/img/entry-disease.png"
             },
             {
                 title: "End Deforestation in the Amazon",
                 description: "Stop hacking the trees and go to TreeHacks!",
-                image_url: ""
+                image_url: "/img/entry-trees.png"
             },
             {
                 title: "Cleanup Oil Spills in the World",
                 description: "Support the International Spill Control Organization (ISCO) to raise worldwide preparedness to oil and chemical spills all over the world.",
-                image_url: ""
+                image_url: "/img/entry-oil.png"
             }
         ],
         silly: [
             {
                 title: "A Semester of your Online College’s Tuition",
                 description: "Still paying full price to attend Zoom University?",
-                image_url: ""
+                image_url: "/img/entry-zoom.png"
             },
             {
                 title: "Sue the Electoral College",
                 description: "Lost an election recently? Go ahead and sue them!",
-                image_url: ""
+                image_url: "/img/entry-electoral.png"
             }
         ]
     }
