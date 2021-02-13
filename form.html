@@ -5,6 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="form.js"></script>
   </head>
   <body>
     <h1>Shoulder Devils</h1>
@@ -13,7 +14,7 @@
       <div class="row">
         <div class="col-lg-2"></div>
         <div class="col-lg-8">
-          <form>
+          <form name="myform" onsubmit="return checkbook();">
             <div class="form-group">
               <label for="inputEmail">Recipient Email</label>
               <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
