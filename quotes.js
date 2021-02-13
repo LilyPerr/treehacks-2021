@@ -11,39 +11,39 @@ const quotes = {
             {
                 title: "Guarantee Timmie an Education",
                 description: "Donate to the Kids in Need Foundation to provide children with the school supplies they need to flourish.",
-                image_url: ""
+                image_url: "/img/entry-kidsinneed.png"
             },
             {
                 title: "Provide Food for People Experiencing Homelessness",
                 description: "Donate to the National Alliance to End Homelessness to provide housing and crisis funds to the homeless in the United States.",
-                image_url: ""
+                image_url: "/img/entry-homelessness.png"
             },
             {
                 title: "Save a Child’s Life",
                 description: "Donate to St. Jude Children’s Research Hospital to help children recover from unfortunate ailments.",
-                image_url: ""
+                image_url: "/img/entry-jude.png"
             }
         ],
         silly: [
             {
                 title: "UC Berkeley Hoodie",
                 description: "Such a waste of money, right?",
-                image_url: ""
+                image_url: "/img/entry-hoodie.png"
             },
             {
                 title: "Among Us Skins",
                 description: "Gotta make sure your virtual avatar looks cute when you’re inevitably tossed into the vacuum of space.",
-                image_url: ""
+                image_url: "/img/amongus.png"
             },
             {
                 title: "An Extra iPhone Headphones Dongle",
                 description: "Who doesn’t want their phone to look like an octopus?",
-                image_url: ""
+                image_url: "/img/dongle.png"
             },
             {
                 title: "More Baking Supplies",
                 description: "One more batch of quarantine cookies won’t hurt, right?",
-                image_url: ""
+                image_url: "/img/baking.png"
             }
         ],
     },
