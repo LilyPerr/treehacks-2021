@@ -15,14 +15,14 @@ const quotes = {
                 org: "Kids in Need Foundation"
             },
             {
-                title: "Feed People Experiencing Homelessness",
-                description: "Donate to the National Alliance to End Homelessness to provide crisis funds for those without homes.",
+                title: "Feed People without Homes",
+                description: "Help the National Alliance to End Homelessness to provide crisis funds for those without homes.",
                 image_url: "img/entry-homelessness.png",
                 org: "National Alliance to End Homelessness"
             },
             {
                 title: "Save a Child’s Life",
-                description: "Donate to St. Jude Children’s Research Hospital to help children recover from ailments and diseases.",
+                description: "Help St. Jude Children’s Research Hospital to help children recover from ailments and diseases.",
                 image_url: "img/entry-jude.png",
                 org: "St. Jude Children’s Research Hospital"
             }
@@ -40,7 +40,7 @@ const quotes = {
             },
             {
                 title: "Extra iPhone Dongle",
-                description: "Who doesn’t want their phone to look like an octopus, especially when you already bought headphones?",
+                description: "Make your phone to look like an octopus, especially since you already bought headphones!",
                 image_url: "img/entry-dongle.png"
             },
             {
@@ -112,7 +112,7 @@ const quotes = {
         ],
         silly: [
             {
-                title: "Semester of Online College Tuition",
+                title: "Online College Tuition",
                 description: "Because ZoomU is just as valuable to your education as the real thing, right?",
                 image_url: "img/entry-zoom.png"
             },
