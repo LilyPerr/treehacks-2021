@@ -23,10 +23,23 @@ function checkbook(){
 	const options = {
 	  method: 'POST',
 	  headers: {Accept: 'application/json', 'Content-Type': 'application/json'},
-	  body: '{"recipient":"arthur.tham@yahoo.com","name":name,"amount":amount,"description":description}'
+	  body: '{"recipient":"arthur.tham@yahoo.com","name":'+name+',"amount":'+amount+',"description":'+description+'}'
 	};
 
 	fetch('https://demo.checkbook.io/v3/check/digital', options)
 	  .then(response => console.log(response))
 	  .catch(err => console.error(err));
 }
+
+function getParam(name){
+	if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+		return decodeURIComponent(name[1]);
+}
+
+
+
+function fillFromParams() {
+	document.getElementById("inputName").value = getParam("entry-level");
+	document.getElementById("inputDescription").value = getParam("entry-id");
+}
+

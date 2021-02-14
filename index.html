@@ -28,18 +28,20 @@
 
       <div class="row text-center">
         <div class="col-lg-6 mb-5 mb-lg">
-          <img src="college.jpg" alt="">
-          <h2>😇 Adopt a puppy</h2>
-          <h3>Provide a forever home for an adorable new friend from the Humane Society or donate to support the organization’s efforts.</h3>
-          <a href="form.html">
-            <button class="btn btn-outline-secondary" type="button" name="button">Donate</button>
-          </a>
+          <form method="GET" action="form.html">
+            <img src="college.jpg" alt="">
+            <h2>😇 <span name="entry-title" id="entry-title">Adopt a puppy</span></h2>
+            <h3><span name="entry-description" id="entry-description">Provide a forever home for an adorable new friend from the Humane Society or donate to support the organization’s efforts.</span></h3>
+            <input type="hidden" name="entry-level" id="entry-level" value="1" /> <!-- low:1, medium:2, high:3 -->
+            <input type="hidden" name="entry-id" id="entry-id" value="2" /> <!-- id -->
+            <button class="btn btn-outline-secondary" type="submit" name="donate" id="donate">Donate</button>
+          </form>
         </div>
         <div class="col-lg-6 mb-5 mb-lg">
           <img src="college.jpg" alt="">
           <h2>😈 Buy a share of GME</h2>
           <h3>With a peak price of $350, you’re sure to net a great return on your investment!</h3>
-          <button class="btn btn-outline-secondary" type="button" name="button" id="buy">Buy</button>
+          <button class="btn btn-outline-secondary" type="button" name="buy" id="buy">Buy</button>
         </div>
       </div>
     </div>
