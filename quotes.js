@@ -11,17 +11,20 @@ const quotes = {
             {
                 title: "Guarantee Timmie an Education",
                 description: "Donate to the Kids in Need Foundation to provide children with the school supplies they need to flourish.",
-                image_url: "/img/entry-kidsinneed.png"
+                image_url: "/img/entry-kidsinneed.png",
+                organization: "Kids in Need Foundation"
             },
             {
                 title: "Provide Food for People Experiencing Homelessness",
                 description: "Donate to the National Alliance to End Homelessness to provide housing and crisis funds to the homeless in the United States.",
-                image_url: "/img/entry-homelessness.png"
+                image_url: "/img/entry-homelessness.png",
+                organization: "National Alliance to End Homelessness"
             },
             {
                 title: "Save a Child’s Life",
                 description: "Donate to St. Jude Children’s Research Hospital to help children recover from unfortunate ailments.",
-                image_url: "/img/entry-jude.png"
+                image_url: "/img/entry-jude.png",
+                organization: "St. Jude Children's Research Hospital"
             }
         ],
         silly: [
@@ -125,6 +128,6 @@ function getQuote(level, type, index) {
         case 3: level_string = "high"; break;
         default: level_string = "unknown";
     }
-    type_string = (type == "silly") ? 2 : 1;
+    type_string = (type == 1) ? "serious" : "silly";
     return quotes[level_string][type_string][parseInt(index)];
 }
