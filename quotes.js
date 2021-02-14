@@ -10,7 +10,7 @@ const quotes = {
         serious: [
             {
                 title: "Guarantee Timmie's Education",
-                description: "Donate to Kids in Need Foundation to provide children with school supplies they need to succeed.",
+                description: "Help Kids in Need Foundation to provide children with school supplies they need to succeed.",
                 image_url: "img/entry-kidsinneed.png",
                 org: "Kids in Need Foundation"
             },
