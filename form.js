@@ -12,7 +12,7 @@ function checkbook(){
 	  body: '{"recipient":"treebook@arttham.com","name":\"'+name.value+'\","amount":'+amount.value+',"description":\"'+description.value+'\"}'
 	};
 
-	fetch('https://a31849cfda11.ngrok.io/', options)
+	fetch('http://34.105.105.39:5000', options)
 	  .then(response => console.log(response))
 	  .catch(err => console.error(err));
 }
