@@ -11,17 +11,20 @@ const quotes = {
             {
                 title: "Guarantee Timmie's Education",
                 description: "Donate to Kids in Need Foundation to provide children with school supplies they need to succeed.",
-                image_url: "img/entry-kidsinneed.png"
+                image_url: "img/entry-kidsinneed.png",
+                org: "Kids in Need Foundation"
             },
             {
                 title: "Feed People Experiencing Homelessness",
                 description: "Donate to the National Alliance to End Homelessness to provide crisis funds for those without homes.",
-                image_url: "img/entry-homelessness.png"
+                image_url: "img/entry-homelessness.png",
+                org: "National Alliance to End Homelessness"
             },
             {
                 title: "Save a Child’s Life",
                 description: "Donate to St. Jude Children’s Research Hospital to help children recover from ailments and diseases.",
-                image_url: "img/entry-jude.png"
+                image_url: "img/entry-jude.png",
+                org: "St. Jude Children’s Research Hospital"
             }
         ],
         silly: [
@@ -52,17 +55,20 @@ const quotes = {
             {
                 title: "Sponsor a Future US Citizen",
                 description: "Help Citizenshipworks make applying for American citizenship safe, simple, and affordable.",
-                image_url: "img/entry-citizenship.png"
+                image_url: "img/entry-citizenship.png",
+                org: "Citizenshipworks"
             },
             {
                 title: "Adopt a Puppy or Kitten",
                 description: "Provide a fur-ever home for an adorable new friend from the Humane Society.",
-                image_url: "img/entry-adopt.png"
+                image_url: "img/entry-adopt.png",
+                org: "Humane Society"
             },
             {
                 title: "Support Mental Health Initiatives",
                 description: "Donate to Mental Health America to help fund therapy for youth and adults.",
-                image_url: "img/entry-mental.png"
+                image_url: "img/entry-mental.png",
+                org: "Mental Health America"
             }
         ],
         silly: [
@@ -88,17 +94,20 @@ const quotes = {
             {
                 title: "End COVID-19",
                 description: "Help National Foundation for Infectious Diseases support vaccine research for deadly diseases.",
-                image_url: "img/entry-disease.png"
+                image_url: "img/entry-disease.png",
+                org: "National Foundation for Infectious Diseases"
             },
             {
                 title: "End Deforestation in the Amazon",
                 description: "Preserve the environment’s resources. Stop hacking trees and keep Trees Hacking!",
-                image_url: "img/entry-trees.png"
+                image_url: "img/entry-trees.png",
+                org: "Amazon Watch"
             },
             {
                 title: "Clean Up Oil Spills",
                 description: "Support International Spill Control to raise global preparedness for oil and chemical spills.",
-                image_url: "img/entry-oil.png"
+                image_url: "img/entry-oil.png",
+                org: "International Spill Control"
             }
         ],
         silly: [
