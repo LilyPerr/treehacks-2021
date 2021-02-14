@@ -1,6 +1,7 @@
 
 
 function checkbook(){
+	alert('Your donation was successful!');
 	var email = document.getElementById("inputEmail");
 	var name = document.getElementById("inputName");
 	var amount = document.getElementById("inputAmount");
@@ -29,4 +30,3 @@ function fillFromParams() {
 	document.getElementById("inputName").value = quote.org;
 	document.getElementById("inputAmount").value = parseInt(getParam("donation-amount"));
 }
-
