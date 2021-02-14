@@ -9,77 +9,77 @@ const quotes = {
     low: {
         serious: [
             {
-                title: "Guarantee Timmie an Education",
-                description: "Donate to the Kids in Need Foundation to provide children with the school supplies they need to flourish.",
-                image_url: "/img/entry-kidsinneed.png"
+                title: "Guarantee Timmie's Education",
+                description: "Donate to Kids in Need Foundation to provide children with school supplies they need to succeed.",
+                image_url: "img/entry-kidsinneed.png"
             },
             {
-                title: "Provide Food for People Experiencing Homelessness",
-                description: "Donate to the National Alliance to End Homelessness to provide housing and crisis funds to the homeless in the United States.",
-                image_url: "/img/entry-homelessness.png"
+                title: "Feed People Experiencing Homelessness",
+                description: "Donate to the National Alliance to End Homelessness to provide crisis funds for those without homes.",
+                image_url: "img/entry-homelessness.png"
             },
             {
                 title: "Save a Child’s Life",
-                description: "Donate to St. Jude Children’s Research Hospital to help children recover from unfortunate ailments.",
-                image_url: "/img/entry-jude.png"
+                description: "Donate to St. Jude Children’s Research Hospital to help children recover from ailments and diseases.",
+                image_url: "img/entry-jude.png"
             }
         ],
         silly: [
             {
                 title: "UC Berkeley Hoodie",
-                description: "Such a waste of money, right?",
-                image_url: "/img/entry-hoodie.png"
+                description: "A common enemy for Stanford, USC, and UCI! Why would you ever wear this?",
+                image_url: "img/entry-hoodie.png"
             },
             {
                 title: "Among Us Skins",
-                description: "Gotta make sure your virtual avatar looks cute when you’re inevitably tossed into the vacuum of space.",
-                image_url: "/img/amongus.png"
+                description: "Cuteness is top priority when your avatar’s tossed into the vacuum of space.",
+                image_url: "img/entry-amongus.png"
             },
             {
-                title: "An Extra iPhone Headphones Dongle",
-                description: "Who doesn’t want their phone to look like an octopus?",
-                image_url: "/img/dongle.png"
+                title: "Extra iPhone Dongle",
+                description: "Who doesn’t want their phone to look like an octopus, especially when you already bought headphones?",
+                image_url: "img/entry-dongle.png"
             },
             {
                 title: "More Baking Supplies",
-                description: "One more batch of quarantine cookies won’t hurt, right?",
-                image_url: "/img/baking.png"
+                description: "One more batch of quarantine cookies on your Insta story won’t hurt, right?",
+                image_url: "img/entry-baking.png"
             }
         ],
     },
     medium: {
         serious: [
             {
-                title: "Sponsor a Future US Citizenship",
-                description: "Donate to Citizenshipworks to help make applying for United States citizenship safer, simpler, and more affordable, and to bring the power of citizenship to more people.",
-                image_url: "/img/entry-citizenship.png"
+                title: "Sponsor a Future US Citizen",
+                description: "Help Citizenshipworks make applying for American citizenship safe, simple, and affordable.",
+                image_url: "img/entry-citizenship.png"
             },
             {
                 title: "Adopt a Puppy or Kitten",
-                description: "Provide a forever home for an adorable new friend from the Humane Society or donate to support the organization’s efforts.",
-                image_url: "/img/adopt.png"
+                description: "Provide a fur-ever home for an adorable new friend from the Humane Society.",
+                image_url: "img/entry-adopt.png"
             },
             {
                 title: "Support Mental Health Initiatives",
-                description: "Donate to Mental Health America to help fund mental health therapy programs for children and adults in the United States.",
-                image_url: "/img/mental.png"
+                description: "Donate to Mental Health America to help fund therapy for youth and adults.",
+                image_url: "img/entry-mental.png"
             }
         ],
         silly: [
             {
                 title: "Invest in Gamestop Stock",
-                description: "With a peak price of $350, you’re sure to net a great return on your investment!",
-                image_url: "/img/entry-gme.png"
+                description: "With a peak price of $350, get a stock everyone believes in! To the moon!",
+                image_url: "img/entry-gme.png"
             },
             {
                 title: "500 Cup Noodles",
                 description: "Try all of their 100+ delicious flavors at least 5 times each!",
-                image_url: "/img/entry-ramen.png"
+                image_url: "img/entry-ramen.png"
             },
             {
                 title: "Upgrade Your Wifi",
-                description: "Make sure that your Netflix and Disney Plus accounts never decrease their streaming quality by ensuring that you have the best wifi possible.",
-                image_url: "/img/streaming.png"
+                description: "Binge quarantine shows even faster from the comfort of your couch.",
+                image_url: "img/entry-streaming.png"
             }
         ],
     },
@@ -87,30 +87,30 @@ const quotes = {
         serious: [
             {
                 title: "End COVID-19",
-                description: "Donate money to the National Foundation for Infectious Diseases to support vaccine research for deadly diseases, such as Covid-19, Polio, and more.",
-                image_url: "/img/entry-disease.png"
+                description: "Help National Foundation for Infectious Diseases support vaccine research for deadly diseases.",
+                image_url: "img/entry-disease.png"
             },
             {
                 title: "End Deforestation in the Amazon",
-                description: "Stop hacking the trees and go to TreeHacks!",
-                image_url: "/img/entry-trees.png"
+                description: "Preserve the environment’s resources. Stop hacking trees and keep Trees Hacking!",
+                image_url: "img/entry-trees.png"
             },
             {
-                title: "Cleanup Oil Spills in the World",
-                description: "Support the International Spill Control Organization (ISCO) to raise worldwide preparedness to oil and chemical spills all over the world.",
-                image_url: "/img/entry-oil.png"
+                title: "Clean Up Oil Spills",
+                description: "Support International Spill Control to raise global preparedness for oil and chemical spills.",
+                image_url: "img/entry-oil.png"
             }
         ],
         silly: [
             {
-                title: "A Semester of your Online College’s Tuition",
-                description: "Still paying full price to attend Zoom University?",
-                image_url: "/img/entry-zoom.png"
+                title: "Semester of Online College Tuition",
+                description: "Because ZoomU is just as valuable to your education as the real thing, right?",
+                image_url: "img/entry-zoom.png"
             },
             {
-                title: "Sue the Electoral College",
-                description: "Lost an election recently? Go ahead and sue them!",
-                image_url: "/img/entry-electoral.png"
+                title: "Contest the Electoral College",
+                description: "Lost a fair and free election for President of the United States recently? Go ahead and sue!",
+                image_url: "img/entry-trump.png"
             }
         ]
     }
