@@ -25,7 +25,8 @@ function getParam(name){
 
 
 function fillFromParams() {
-	document.getElementById("inputName").value = getParam("entry-level");
-	document.getElementById("inputDescription").value = getParam("entry-id");
+	var quote = getQuote(parseInt(getParam("entry-level")), 1, parseInt(getParam("entry-id")));
+	document.getElementById("inputName").value = quote.organization;
+	document.getElementById("inputAmount").value = parseInt(getParam("donation-amount"));
 }
 
