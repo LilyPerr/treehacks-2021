@@ -131,3 +131,16 @@ function getQuote(level, type, index) {
     type_string = (type == 1) ? "serious" : "silly";
     return quotes[level_string][type_string][parseInt(index)];
 }
+
+function getQuotesByType(level, type) {
+    var level_string;
+    var type_string;
+    switch (parseInt(level)) {
+        case 1: level_string = "low"; break;
+        case 2: level_string = "medium"; break;
+        case 3: level_string = "high"; break;
+        default: level_string = "unknown";
+    }
+    type_string = (type == 1) ? "serious" : "silly";
+    return quotes[level_string][type_string];
+}
