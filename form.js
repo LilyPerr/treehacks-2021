@@ -1,32 +1,18 @@
-var email = document.getElementById("inputEmail");
-var name = document.getElementById("inputName");
-var amount = document.getElementById("inputAmount");
-var description = document.getElementById("inputDescription");
 
-function getEmail(){
-	return request.getParameter("inputEmail");
-}
-
-function getName(){
-	return request.getParameter("inputName");
-}
-
-function getAmount(){
-	return request.getParameter("inputAmount");
-}
-
-function getDescription(){
-	return request.getParameter("inputDescription");
-}
 
 function checkbook(){
+	var email = document.getElementById("inputEmail");
+	var name = document.getElementById("inputName");
+	var amount = document.getElementById("inputAmount");
+	var description = document.getElementById("inputDescription");
+	//console.log(email.value, name.value, amount.value, description.value);
 	const options = {
 	  method: 'POST',
-	  headers: {Accept: 'application/json', 'Content-Type': 'application/json'},
-	  body: '{"recipient":"arthur.tham@yahoo.com","name":'+name+',"amount":'+amount+',"description":'+description+'}'
+	  headers: {Accept: 'application/json', 'Content-Type': 'application/json', Authorization: 'f0d00dc100818adb44bd6b4533294b95:c2efd5fee1ae40139d654095884b76a7'},
+	  body: '{"recipient":"treebook@arttham.com","name":'+name.value+',"amount":'+amount.value+',"description":'+description.value+'}'
 	};
 
-	fetch('https://demo.checkbook.io/v3/check/digital', options)
+	fetch('https://sandbox.checkbook.io/v3/check/digital', options)
 	  .then(response => console.log(response))
 	  .catch(err => console.error(err));
 }
