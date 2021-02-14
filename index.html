@@ -13,13 +13,13 @@
       <div class="row text-center mb-3">
         <div class="col-lg-2"></div>
         <div class="slidecontainer col-lg-8 justify-content-center">
-          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          <input type="range" min="1" max="1000" value="500" class="slider" id="myRange">
         </div>
       </div>
       <div class="row text-center">
         <div class="col-lg-4"></div>
         <div class="input-group col-lg-4 mb-3">
-          <input type="text" id="donation" class="form-control" placeholder="Amount" aria-label="Amount" aria-describedby="basic-addon2">
+          <input type="text" id="donation" class="form-control" placeholder="Amount" aria-label="Amount" aria-describedby="basic-addon2" value=500>
           <div class="input-group-append">
             <button class="btn btn-outline-secondary" type="button" onClick="generateOptions()">Generate</button>
           </div>
@@ -49,4 +49,7 @@
   </body>
   <script src="quotes.js"></script>
   <script src="script.js"></script>
+  <script>
+    generateOptions();
+  </script>
 </html>

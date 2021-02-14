@@ -18,11 +18,11 @@ function generateOptions() {
   console.log(donationAmount);
   // Determine the level for the donation: low, medium or high? (1, 2, or 3)
   var donationLevel;
-  if (donationAmount <= 30) { // low
+  if (donationAmount <= 333) { // low
     donationLevel = 1;
-  } else if (donationAmount <= 400) {
+  } else if (donationAmount <= 666) { // LUL
     donationLevel = 2;
-  } else {
+  } else { // moon
     donationLevel = 3;
   }
 
@@ -40,7 +40,7 @@ function generateOptions() {
   document.getElementById("entry-image").src = seriousQuote.image_url;
 
   // update the serious quote and donation hidden input values
-  document.getElementById("donation-amount").value = seriousIndex;
+  document.getElementById("donation-amount").value = donationAmount;
   document.getElementById("entry-level").value = donationLevel;
   document.getElementById("entry-id").value = seriousIndex;
 
